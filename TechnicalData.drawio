@@ -1,20 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T17:02:51.090Z" agent="5.0 (Windows)" etag="BwlvbmMFPOyRQN7qAFx0" version="13.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-26T17:09:29.814Z" agent="5.0 (Windows)" etag="RkApn9-HtsT63luQVxDd" version="13.9.0" type="github">
   <diagram id="LOZXMUCH9rTvnQsDgAjs" name="Page-1">
     <mxGraphModel dx="1021" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-1" target="JSMg2LDfkCpK5-ybNOtz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-10" value="[1]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-7">
+          <mxGeometry x="-0.2525" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-1" target="JSMg2LDfkCpK5-ybNOtz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-11" value="&lt;div&gt;[0..1]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-8">
+          <mxGeometry x="-0.1525" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;TechnicalData:Submodel&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;GeneralInformation: SubmodelElementCollection [1]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ProductClassifications: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;TechnicalProperties: SubmodelElementCollection [1]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;FurtherInformation: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="70" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;GeneralInformation:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;ManufacturerName : Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;ManufacturerLogo : File [0..1]&lt;/div&gt;ManufacturerProductDesignation : MultilanguageProperty [1]&lt;br&gt;ManufacturerPartNumber : Property [1]&lt;br&gt;ManufacturerOrderCode : Property&amp;lt;String&amp;gt; [1]&lt;br&gt;ProductImage : File [0..*]" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="250" width="330" height="130" as="geometry" />
+          <mxGeometry x="500" y="270" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-5" target="JSMg2LDfkCpK5-ybNOtz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-12" value="[0..*]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-9">
+          <mxGeometry x="0.2182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;ProductClassifications:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;ProductClassificationItem{00} : SubmodelElementCollection[0..*]&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="270" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;ProductClassificationItem{00}:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;ProductClassificationSystem: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;ProductClassififactionSystemVersion: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;ProductClassId: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="410" width="350" height="80" as="geometry" />
+          <mxGeometry x="110" y="370" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;TechnicalProperties:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;{arbitrary} : SubmodelElement [0..*]&lt;/div&gt;&lt;div&gt;{arbitrary} : SubmodelElement [0..*]&lt;/div&gt;&lt;div&gt;MainSection{00} : SubmodelElementCollection [0..*]&lt;/div&gt;&lt;div&gt;SubSection{00} : SubmodelElementCollection [0..*]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="270" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;FurtherInformation:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;TextStatement{00}: MultiLanguageProperty [0..*]&lt;/div&gt;&lt;div&gt;ValidDate: Property&amp;lt;Date&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="270" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

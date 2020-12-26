@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T17:09:29.814Z" agent="5.0 (Windows)" etag="RkApn9-HtsT63luQVxDd" version="13.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-26T17:13:47.507Z" agent="5.0 (Windows)" etag="3leMu7Btekr_b4ppv_R2" version="13.9.0" type="github">
   <diagram id="LOZXMUCH9rTvnQsDgAjs" name="Page-1">
     <mxGraphModel dx="1021" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-10" value="[1]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-7">
           <mxGeometry x="-0.2525" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="131" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-1" target="JSMg2LDfkCpK5-ybNOtz-5">
@@ -18,6 +18,22 @@
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-11" value="&lt;div&gt;[0..1]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-8">
           <mxGeometry x="-0.1525" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-1" target="JSMg2LDfkCpK5-ybNOtz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-18" value="[1]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-17">
+          <mxGeometry x="0.6148" relative="1" as="geometry">
+            <mxPoint x="70" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-1" target="JSMg2LDfkCpK5-ybNOtz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-20" value="&lt;div&gt;[0..1]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JSMg2LDfkCpK5-ybNOtz-19">
+          <mxGeometry x="0.8146" y="2" relative="1" as="geometry">
+            <mxPoint x="35" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;TechnicalData:Submodel&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;GeneralInformation: SubmodelElementCollection [1]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ProductClassifications: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;TechnicalProperties: SubmodelElementCollection [1]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;FurtherInformation: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
@@ -45,6 +61,12 @@
         </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;FurtherInformation:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;TextStatement{00}: MultiLanguageProperty [0..*]&lt;/div&gt;&lt;div&gt;ValidDate: Property&amp;lt;Date&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" y="270" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-15" target="JSMg2LDfkCpK5-ybNOtz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSMg2LDfkCpK5-ybNOtz-15" value="&lt;div&gt;{arbitrary}: Name ist nicht vorgegeben, sondern kann je nach Bedarf gewählt werden&lt;/div&gt;&lt;div&gt;Es existieren zwei {arbitrary} SubmodelElement-Vorgaben, eins für Properties mit gegebener SemanticId, eins für welche ohne&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="825" y="460" width="420" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

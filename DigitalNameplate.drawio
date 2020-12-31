@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T15:55:49.891Z" agent="5.0 (Windows)" etag="R62NYIvx3AlJgZFvZoEB" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T15:56:52.396Z" agent="5.0 (Windows)" etag="Z4dgGiVQJEf6u7NBsxSx" version="13.10.0" type="github">
   <diagram id="x3vYqnxOLieyiNonaGyk" name="Page-1">
     <mxGraphModel dx="1423" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gtUXxfpkHl2aQ-wMRxCu-32" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;Submodel Digital Nameplate&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="html=1;strokeWidth=1;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;labelX=180.33;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="1000" height="710" as="geometry" />
+        </mxCell>
         <mxCell id="gtUXxfpkHl2aQ-wMRxCu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gtUXxfpkHl2aQ-wMRxCu-1" target="gtUXxfpkHl2aQ-wMRxCu-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -21,7 +24,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gtUXxfpkHl2aQ-wMRxCu-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DigitalNameplate:Submodel&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;ManufacturerName: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ManufacturerProductDesignation: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Address: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ManufacturerProductFamily: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;SerialNumber: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;YearOfConstruction: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Markings: SubmodelElementCollection [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;AssetSpecificProperties: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="70" width="330" height="150" as="geometry" />
+          <mxGeometry x="380" y="70" width="330" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gtUXxfpkHl2aQ-wMRxCu-7" value="[0..*]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gtUXxfpkHl2aQ-wMRxCu-2" target="gtUXxfpkHl2aQ-wMRxCu-6">
           <mxGeometry x="0.76" relative="1" as="geometry">
@@ -51,7 +54,7 @@
         </mxCell>
         <mxCell id="gtUXxfpkHl2aQ-wMRxCu-18" value="[0..1]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gtUXxfpkHl2aQ-wMRxCu-16">
           <mxGeometry x="0.2" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="11.67" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gtUXxfpkHl2aQ-wMRxCu-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Address:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Department: MultiLanguageProperty [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Street: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Zipcode: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;POBox: MultiLanguageProperty [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ZipCodeOfPOBox: MultiLanguageProperty [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;CityTown: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;StateCounty: MultiLanguageProperty [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;NationalCode: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;VATNumber: MultiLanguageProperty [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;AddressRemarks: MultiLanguageProperty [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;AddressOfAdditionalLink: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Phone{00}: SubmodelElementCollection [0..*]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Fax{00}: SubmodelElementCollection [0..*]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Email{00}: SubmodelElementCollection [0..*]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">

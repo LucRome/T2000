@@ -1,14 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T16:48:36.619Z" agent="5.0 (Windows)" etag="ICFILtFGkohIGGOyqSzo" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T16:56:50.777Z" agent="5.0 (Windows)" etag="RpQIKDLmgNAEgAa63aGz" version="14.1.4" type="github">
   <diagram id="kCBzErJInzSzrVF1jSJz" name="Page-1">
-    <mxGraphModel dx="854" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1832" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NsP-rhynRIXaqWZqm3Cz-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Document:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;DocumentId: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentVersion: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentPartId: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentDomain: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ReferencedObject: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentClassification: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-2" target="NsP-rhynRIXaqWZqm3Cz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-2" target="NsP-rhynRIXaqWZqm3Cz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Document:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;DocumentId: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentVersion: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentPartId: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentDomain: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ReferencedObject: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentClassification: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="290" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-3" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Referenced Object: &quot;eindeutige ID des Assets (vielleicht Reference-Element(?)&lt;/li&gt;&lt;li&gt;DocumentClassification: VDI2770 Kategorien&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;size=24;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="385" width="330" height="50" as="geometry" />
+          <mxGeometry x="-210" y="350" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-4" value="" style="endArrow=none;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-3" target="NsP-rhynRIXaqWZqm3Cz-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -16,17 +22,20 @@
             <mxPoint x="920" y="452.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NsP-rhynRIXaqWZqm3Cz-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DocumentVersion:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Description: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Language: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentRelationship: RelationshipElement [0..1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="470" width="280" height="130" as="geometry" />
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DocumentVersion:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Description: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Language: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentRelationship: RelationshipElement [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;LifeCycleStatus: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Party:&amp;nbsp; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentVersionId: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;StoredDocumentRepresentation:&amp;nbsp; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="470" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-6" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;DocumentRelationship: ???&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;size=24;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="497" y="500" width="330" height="50" as="geometry" />
+          <mxGeometry x="-220" y="500" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-7" value="" style="endArrow=none;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-6" target="NsP-rhynRIXaqWZqm3Cz-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="420" as="sourcePoint" />
             <mxPoint x="450" y="365" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DocumentId:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;DomainId: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;IdType: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Value: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="470" width="280" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

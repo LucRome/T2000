@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T15:16:59.908Z" agent="5.0 (Windows)" version="13.10.0" etag="EeBg2BtL4ltKIfMjihhl" type="github"><diagram id="x3vYqnxOLieyiNonaGyk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-31T15:25:12.023Z" agent="5.0 (Windows)" etag="aPaiGOVJxZbTFdccHlDj" version="13.10.0" type="github">
+  <diagram id="x3vYqnxOLieyiNonaGyk" name="Page-1">
+    <mxGraphModel dx="854" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gtUXxfpkHl2aQ-wMRxCu-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DigitalNameplate:Submodel&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;ManufacturerName: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ManufacturerProductDesignation: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Address: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ManufacturerProductFamily: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;SerialNumber: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;YearOfConstruction: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Markings: SubmodelElementCollection [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;AssetSpecificProperties: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="330" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

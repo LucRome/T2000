@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T14:55:09.652Z" agent="5.0 (Windows)" etag="lVGR-mYAA9vpqMghzf1Z" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T14:56:20.250Z" agent="5.0 (Windows)" etag="vUEmf3YYShxwB7nNBWRR" version="13.10.0" type="github">
   <diagram id="LOZXMUCH9rTvnQsDgAjs" name="Page-1">
     <mxGraphModel dx="854" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,14 +62,23 @@
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;FurtherInformation:SubmodelElementCollection&lt;/b&gt; &lt;/p&gt;&lt;hr&gt;&lt;div&gt;TextStatement{00}: MultiLanguageProperty [0..*]&lt;/div&gt;&lt;div&gt;ValidDate: Property&amp;lt;&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="270" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="JSMg2LDfkCpK5-ybNOtz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="JSMg2LDfkCpK5-ybNOtz-15" target="JSMg2LDfkCpK5-ybNOtz-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-15" value="&lt;div&gt;{arbitrary}: Name ist nicht vorgegeben, sondern kann je nach Bedarf gewählt werden&lt;/div&gt;&lt;div&gt;Es existieren zwei {arbitrary} SubmodelElement-Vorgaben, eins für Properties mit gegebener SemanticId, eins für welche ohne&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="832.5" y="440" width="405" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1MPD8Sa-97pu1-lE3-MR-1" value="&lt;div&gt;Datentyp von ValidDate ist nicht vorgegeben&lt;/div&gt;&lt;div&gt;eine Möglichkeit wäre &quot;Date&quot;&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1241" y="440" width="309" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1MPD8Sa-97pu1-lE3-MR-3" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JSMg2LDfkCpK5-ybNOtz-15" target="JSMg2LDfkCpK5-ybNOtz-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="600" as="sourcePoint" />
+            <mxPoint x="810" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1MPD8Sa-97pu1-lE3-MR-4" value="" style="endArrow=none;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="1MPD8Sa-97pu1-lE3-MR-1" target="JSMg2LDfkCpK5-ybNOtz-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="440" as="sourcePoint" />
+            <mxPoint x="1380" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

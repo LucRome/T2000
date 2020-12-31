@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T14:54:24.787Z" agent="5.0 (Windows)" etag="rtdHeD0ZUamDA0ApG0sy" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T14:55:09.652Z" agent="5.0 (Windows)" etag="lVGR-mYAA9vpqMghzf1Z" version="13.10.0" type="github">
   <diagram id="LOZXMUCH9rTvnQsDgAjs" name="Page-1">
     <mxGraphModel dx="854" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
         <mxCell id="JSMg2LDfkCpK5-ybNOtz-15" value="&lt;div&gt;{arbitrary}: Name ist nicht vorgegeben, sondern kann je nach Bedarf gewählt werden&lt;/div&gt;&lt;div&gt;Es existieren zwei {arbitrary} SubmodelElement-Vorgaben, eins für Properties mit gegebener SemanticId, eins für welche ohne&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="832.5" y="440" width="405" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1MPD8Sa-97pu1-lE3-MR-1" value="" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="1MPD8Sa-97pu1-lE3-MR-1" value="&lt;div&gt;Datentyp von ValidDate ist nicht vorgegeben&lt;/div&gt;&lt;div&gt;eine Möglichkeit wäre &quot;Date&quot;&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1241" y="440" width="309" height="100" as="geometry" />
         </mxCell>
       </root>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T17:29:59.003Z" agent="5.0 (Windows)" etag="KpZ8qIt3VvyjdWbK7Qw8" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T17:35:37.805Z" agent="5.0 (Windows)" etag="NeM1wlcoSqh-KO6-gOiM" version="14.1.4" type="github">
   <diagram id="kCBzErJInzSzrVF1jSJz" name="Page-1">
-    <mxGraphModel dx="2047" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3362" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,6 +41,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-5" target="NsP-rhynRIXaqWZqm3Cz-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-5" target="NsP-rhynRIXaqWZqm3Cz-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DocumentVersion:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Description: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Language: SubmodelElementCollection [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentRelationship: SubmodelElementCollection [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;LifeCycleStatus: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Party:&amp;nbsp; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentVersionId: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;StoredDocumentRepresentation:&amp;nbsp; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
@@ -161,6 +164,12 @@
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DocumentRelationship:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;DocumentVersionId: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Type: Property&amp;lt;String&amp;gt; [0..1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Description: SubmodelElementCollection [0..1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;DocumentId:&amp;nbsp; SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;DocumentPartId: SubmodelElementCollection [0..1]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="720" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-52" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;StoredDocumentRepresentation:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;DigitalFile: SubmodelElementCollection [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="720" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-54" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;LifeCycleStatus:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Party: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;StatusValue: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;SetDate: Property&amp;lt;Date&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Purpos: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;BasedOnProcedure: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Comments: MultiLanguageProperty [0..*]&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="720" width="320" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

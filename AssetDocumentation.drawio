@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T17:40:21.159Z" agent="5.0 (Windows)" etag="3qhtW--HWDw_ihrMclVx" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T17:42:30.622Z" agent="5.0 (Windows)" etag="D1HGRxKoroezfKQMWDyQ" version="14.1.4" type="github">
   <diagram id="kCBzErJInzSzrVF1jSJz" name="Page-1">
     <mxGraphModel dx="3362" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,11 +204,17 @@
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-54" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;LifeCycleStatus:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Party: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;StatusValue: Property&amp;lt;String&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;SetDate: Property&amp;lt;Date&amp;gt; [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Purpos: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;BasedOnProcedure: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Comments: MultiLanguageProperty [0..*]&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1080" y="720" width="320" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NsP-rhynRIXaqWZqm3Cz-56" target="NsP-rhynRIXaqWZqm3Cz-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-56" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Party:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;Organisation: SubmodelElementCollection [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;Role: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-715" y="920" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NsP-rhynRIXaqWZqm3Cz-61" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;DocumentVersionId:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;DomainId: Property&amp;lt;String&amp;gt; [1]&lt;br&gt;&lt;/div&gt;&lt;div&gt;Value: PropertyString [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1430" y="720" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NsP-rhynRIXaqWZqm3Cz-63" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Organisation:SubmodelElementCollection&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;OrganisationId: Property&amp;lt;String&amp;gt; [0..1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;OrganisationName: MultiLanguageProperty [1]&lt;/div&gt;&lt;div&gt;&amp;nbsp;OrganisationOfficialName: MultiLanguageProperty [1]&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="1100" width="320" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

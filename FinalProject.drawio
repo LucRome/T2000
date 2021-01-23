@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-23T16:23:22.769Z" agent="5.0 (Windows)" etag="6a7RyNnmXCaRO0I5LRbQ" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-23T16:52:44.713Z" agent="5.0 (Windows)" etag="zTRnjTjsxJB1j9r2t67p" version="14.2.7" type="github">
   <diagram id="Mwsu2u783ob0jfeZUq9d" name="Page-1">
     <mxGraphModel dx="854" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,13 +11,25 @@
           <mxGeometry x="290" y="30" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CFGpU1DCP03EURR3IezH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-4" target="CFGpU1DCP03EURR3IezH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-4" target="CFGpU1DCP03EURR3IezH-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-31" value="URL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CFGpU1DCP03EURR3IezH-29">
+          <mxGeometry x="-0.1422" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CFGpU1DCP03EURR3IezH-4" value="ServerSerttings.json" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="150" width="160" height="30" as="geometry" />
+          <mxGeometry x="667" y="120" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CFGpU1DCP03EURR3IezH-7" value="&lt;div&gt;PC&lt;/div&gt;&lt;div&gt;(erstellen&lt;/div&gt;&lt;div&gt;AAS&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=50;" vertex="1" parent="1">
-          <mxGeometry x="230" y="310" width="300" height="200" as="geometry" />
+          <mxGeometry x="230" y="310" width="450" height="320" as="geometry" />
         </mxCell>
         <mxCell id="CFGpU1DCP03EURR3IezH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-10" target="CFGpU1DCP03EURR3IezH-3">
           <mxGeometry relative="1" as="geometry" />
@@ -44,6 +56,47 @@
             <mxPoint x="425" y="330" as="sourcePoint" />
             <mxPoint x="425" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-17" target="CFGpU1DCP03EURR3IezH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-17" value="CD&lt;br&gt;&lt;div&gt;Templates&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-18" target="CFGpU1DCP03EURR3IezH-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="470" />
+              <mxPoint x="425" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-18" value="&lt;div&gt;AAS/SM/SME-&lt;/div&gt;&lt;div&gt;Templates&lt;br&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-20" target="CFGpU1DCP03EURR3IezH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-30" value="IdShort" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-20" target="CFGpU1DCP03EURR3IezH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-20" value="AAS" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGpU1DCP03EURR3IezH-23" target="CFGpU1DCP03EURR3IezH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-23" value="Sendet .aasx + Infos welche Dateien verwendet werden sollen" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="225" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-25" value="(vielleicht einfach pauschal einen Ordner importieren)" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="215" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-26" value="Auch zusätzliche Dateien automatisch verwenden und zur Verfügung stellen" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="110" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGpU1DCP03EURR3IezH-28" value="QRCode-generator" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="557" y="400" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
